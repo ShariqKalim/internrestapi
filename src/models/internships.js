@@ -6,7 +6,7 @@ const internSchema = new mongoose.Schema({
     require: true,
     trim: true,
   },
-  paragraph: {
+  main: {
     type: String,
     require: true,
     trim: true,
